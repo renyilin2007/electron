@@ -35,8 +35,8 @@ recommended to do it at least once to index most shared libraries:
 
     $ ./vendor/libchromiumcontent/src/build/gdb-add-index ./out/D/electron
 
-Building libchromiumcontent requires a powerful machine and takes a long
-time(though incremental rebuilding the shared library component is fast). With a
+Building libchromiumcontent requires a powerful machine and takes a long time
+(though incremental rebuilding the shared library component is fast). With an
 8-core/16-thread Ryzen 1700 CPU clocked at 3ghz, fast SSD and 32GB of RAM, it
 should take about 40 minutes. It is not recommended to build with less than 16GB
 of RAM.
